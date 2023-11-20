@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "../css/Contact.css";
 import image from "../Svg/Insta.svg";
 import image1 from "../Svg/Twitter.svg";
@@ -5,7 +7,22 @@ import image2 from "../Svg/Github.svg";
 import image3 from "../Svg/Linkedin.svg";
 import image4 from "../Svg/Call.svg";
 import image5 from "../Svg/Mail.svg";
+
+    
 function Contact(){
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_kmedaq4', 'template_zq2o77h', form.current, 'Sx0VoIa_z-OhpTGy_')
+        .then((result) => {
+           alert("message sent");
+           form.current.reset();
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     return (
         <>
          <div id="contact">
@@ -23,8 +40,8 @@ function Contact(){
                     </div>
                 </div>    
                 <div class="contact-right">
-                    <form action="https://formsubmit.co/hnnidhi28@gmail.com" method="POST">
-                        <input type="text" name="Name" placeholder="Your name" required/>
+                <form ref={form} onSubmit={sendEmail}>
+                        <input type="text" name="user_name" placeholder="Your name" required/>
                         <input type="email" name="email" placeholder="Your Email" required/>
                         <textarea name="Message" rows="6" placeholder="Your message"></textarea>
                         <button type="submit" class="btn">Submit</button>
