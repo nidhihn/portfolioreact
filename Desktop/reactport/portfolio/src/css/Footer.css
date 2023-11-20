@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 70px;
+      background-color: #22092C;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      box-shadow:  0px -5px 55px #57375D;
+      bottom: 0;
+      width: 97%;
+      
+    }
+  
+    .footer p {
+      margin: 5px 0;
+    }
+  
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo1{
+        width: 30px;
+        height: 30px;
+    }
+   .logo {
+     width: 30px;
+     height: 30px;
+    border-radius: 10%;
+   }
