@@ -1,5 +1,23 @@
 import "../css/Skills.css";
-function Skills() {
+import Card from "./Card";
+function Skill() {
+    const skills=[
+        {
+            id:1,
+            h:"header1",
+            p:"content1"
+        },
+        {
+            id:2,
+            h:"header2",
+            p:"content2"
+        },
+        {
+            id:3,
+            h:"header3",
+            p:"content3"
+        }
+    ]
   return (
     <>
       <h1 className="skills">Skills</h1>
@@ -32,7 +50,12 @@ function Skills() {
        
       </div>
       </div>
+      {
+        skills.map((item)=>(
+            <Card Skills={item}/>
+        ))
+      }
     </>
   );
 }
-export default Skills;
+export default Skill;
