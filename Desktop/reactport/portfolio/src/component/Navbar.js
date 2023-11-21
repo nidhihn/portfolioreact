@@ -26,10 +26,10 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="/" className="elem"> Projects</a>
+              <Link className="elem" to="/Skills" >Skills</Link>
             </li>
             <li>
-              <a href="/" className="elem">Contact me</a>
+            <Link className="elem" to="/Contact" >Contact</Link>
             </li>
             <li>
               <a href="#" onClick={() => hamb(true)} id="hamb">
@@ -50,7 +50,7 @@ function Navbar() {
                 <a href="/">About me</a>
               </li>           
               <li>
-                <a href="/">Projects</a>
+                <a href="/">Skills</a>
               </li>
               <li>
                 <a href="/">Contact me</a>

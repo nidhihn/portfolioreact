@@ -11,15 +11,18 @@ import Loader from './Loader';
 
     
 function Contact(){
+    const [Loaders, setLoader] = useState(false);
+    
     const form = useRef();
-    const [isLoading, setIsLoading] = useState(false);
-    const [isSubmitted, setIsSubmitted] = useState(false);
+   
     const sendEmail = (e) => {
       e.preventDefault();
+      setLoader(true)
 
   
       emailjs.sendForm('service_kmedaq4', 'template_zq2o77h', form.current, 'Sx0VoIa_z-OhpTGy_')
         .then((result) => {
+            setLoader(false)
            alert("message sent");
            form.current.reset();
         }, (error) => {
@@ -47,8 +50,11 @@ function Contact(){
                         <input type="text" name="user_name" placeholder="Your name" required/>
                         <input type="email" name="email" placeholder="Your Email" required/>
                         <textarea name="Message" rows="6" placeholder="Your message"></textarea>
-                        
+                        {!Loaders?
                         <button type="submit" class="btn">Submit</button>
+                        :
+                        <Loader/>
+                         }
                     </form>
                 </div>
             </div>

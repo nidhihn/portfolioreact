@@ -22,6 +22,7 @@ body {
 }
 .about-col-2{
     flex-basis: 60%;
+    font-size: 30px;
 }
 .sub-title{
     font-size: 60px;
