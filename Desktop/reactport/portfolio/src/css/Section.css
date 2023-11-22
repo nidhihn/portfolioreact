@@ -18,12 +18,13 @@ body {
     font-size: 2.5rem;
    
 }
-.leftsection.buttons{
-    padding: 20px;
+.buttons{
+    padding-left: 150px;
+       
 }
 .rightsection img{
-    width: 800;
-    height: 500;
+    width: 100%;
+    border-radius: 10px;
     transition: transform 0.3s ease;
  
 }

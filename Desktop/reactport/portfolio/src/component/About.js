@@ -1,4 +1,4 @@
-import image from "../images/About.jpg";
+import image from "../images/Mypicture.jpg";
 import "../css/About.css";
 function About() {
     return (
@@ -21,22 +21,7 @@ function About() {
                         In addition to my technical skills, I'm a firm believer in the importance of effective communication and collaboration.
                         Building strong relationships with clients, designers, and fellow developers is key to delivering successful projects.</p>
 
-                             {/* <div class="tab-titles">
-                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                                <p class="tab-links" onclick="opentab('education')">Education</p>
-                             </div>
-                             <div class="tab-contents active-tab" id="skills">
-                                <ul>
-                                    <li><span>Web Development</span><br/>Web app development</li>
-                                    <li><span>App Development</span><br/>Building Android /ios apps </li>
-                                </ul>
-                             </div>
-                             <div class="tab-contents" id="education">
-                                <ul>
-                                    <li><span>2018-2020</span><br/>PUC</li>
-                                    <li><span>2021-2025</span><br/>Computer Science Engineering </li>
-                                </ul>
-                             </div> */}
+                           
                 </div>
             </div>
         </div>

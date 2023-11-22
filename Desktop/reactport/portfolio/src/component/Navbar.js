@@ -44,16 +44,24 @@ function Navbar() {
                 <a href="#" onClick={() => hamb(false)} id="hamb">&#x2715;</a>
               </li>
               <li>
-                <a href="/">Home</a>
+              <Link to="/">
+                Home
+              </Link>
               </li>
               <li>
-                <a href="/">About me</a>
+              <Link to="/About">
+                About 
+              </Link>
               </li>           
               <li>
-                <a href="/">Skills</a>
+              <Link to="/Skills">
+                Skills
+              </Link>
               </li>
               <li>
-                <a href="/">Contact me</a>
+              <Link to="/Contact">
+                Contact
+              </Link>
               </li>
             </ul>
           </>

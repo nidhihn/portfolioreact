@@ -1,5 +1,5 @@
 import "../css/Section.css";
-import image from "../images/Image1.png";
+import image from "../Svg/Newdev.gif";
 function Section() {
   return (
     <>
@@ -8,11 +8,11 @@ function Section() {
         <section className="firstsection">
           <div className="leftsection">
            <p> Hi, I'm <span className="purple">Nidhi H N </span>
-             and I'm passionate web developer</p>
+              I'm passionate learner and <br/> web developer</p>
             
             <div className="buttons">
               <button className="btn">Download Resume</button>
-              <button className="btn">Visit- Github</button>
+              {/* <button className="btn">Visit- Github</button> */}
             </div>
           </div>
           <div className="rightsection">

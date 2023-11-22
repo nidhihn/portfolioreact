@@ -5,8 +5,6 @@ import image from "../Svg/Insta.svg";
 import image1 from "../Svg/Twitter.svg";
 import image2 from "../Svg/Github.svg";
 import image3 from "../Svg/Linkedin.svg";
-import image4 from "../Svg/Call.svg";
-import image5 from "../Svg/At.svg";
 import Loader from './Loader';
 
     
@@ -36,8 +34,8 @@ function Contact(){
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact me</h1>
-                    <p> <img src={image5} alt="Image" class="icons"/> hnnidhi28@gmail.com</p>
-                    <p> <img src={image4} alt="Image" class="icons"/> 8431061757</p>
+                    <p>  hnnidhi28@gmail.com</p>
+                    
                     <div class="social-icons">
                         <a href=""> <img src={image} alt="Image" class="icons"/></a>
                         <a href=""><img src={image1} alt="Image" class="icons"/></a>

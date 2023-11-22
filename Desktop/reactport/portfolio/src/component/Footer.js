@@ -14,7 +14,7 @@ function Footer(){
     </p>
   </div>
   <br/>
-  <h3>Made by Nidhi</h3>
+  <h3> &#169; This page is owned by Nidhi  | All rights reserved</h3>
 </div>
 
 <script src="https://kit.fontawesome.com/66e1a8d2b7.js" crossorigin="anonymous"></script>
