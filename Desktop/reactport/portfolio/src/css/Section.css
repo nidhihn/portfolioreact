@@ -7,13 +7,12 @@ body {
   }
 .firstsection {
     display: flex;
+    padding-top: 100px;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0;
+    
 }
-.firstsection div {
-    width: 30%;
-}
+
 .leftsection {
     font-size: 2.5rem;
    
@@ -53,4 +52,11 @@ body {
 }
 .buttons{
     display: flex;
+}
+
+@media (max-width:600px){
+   .firstsection{
+    display: flex;
+    flex-direction: column;
+   }
 }

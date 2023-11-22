@@ -8,12 +8,12 @@ function Section() {
         <section className="firstsection">
           <div className="leftsection">
            <p> Hi, I'm <span className="purple">Nidhi H N </span>
-              I'm passionate learner and <br/> web developer</p>
+              I'm<br/> passionate learner and <br/> web developer</p>
             
-            <div className="buttons">
+            
               <button className="btn">Download Resume</button>
               {/* <button className="btn">Visit- Github</button> */}
-            </div>
+            
           </div>
           <div className="rightsection">
             <img src={image} alt="Image"/>

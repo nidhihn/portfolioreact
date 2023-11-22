@@ -5,7 +5,7 @@ function About() {
         <>
         <body>
          <div id="About">
-        <div class="container">
+        
             <div class="row">
                 <div class="about-col-1">
                     <img src={image} alt="Image"/>
@@ -24,7 +24,7 @@ function About() {
                            
                 </div>
             </div>
-        </div>
+        
     </div>
     </body>
         </>
