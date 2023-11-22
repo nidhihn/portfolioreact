@@ -6,7 +6,7 @@ import image1 from "../Svg/Twitter.svg";
 import image2 from "../Svg/Github.svg";
 import image3 from "../Svg/Linkedin.svg";
 import image4 from "../Svg/Call.svg";
-import image5 from "../Svg/Email.svg";
+import image5 from "../Svg/At.svg";
 import Loader from './Loader';
 
     

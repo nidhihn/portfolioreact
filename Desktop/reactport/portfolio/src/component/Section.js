@@ -7,9 +7,9 @@ function Section() {
       <main>
         <section className="firstsection">
           <div className="leftsection">
-            Hi, I'm <span className="purple">Nidhi H N </span>
-             and I'm passionate
-            <span id="element"></span>
+           <p> Hi, I'm <span className="purple">Nidhi H N </span>
+             and I'm passionate web developer</p>
+            
             <div className="buttons">
               <button className="btn">Download Resume</button>
               <button className="btn">Visit- Github</button>
