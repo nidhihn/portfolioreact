@@ -3,12 +3,12 @@ import "../css/About.css";
 function About() {
     return (
         <>
-        <body>
+        
          <div id="About">
         
             <div class="row">
                 <div class="about-col-1">
-                    <img src={image} alt="Image"/>
+                    <img id="abtimage"src={image} alt="Image"/>
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
@@ -26,7 +26,7 @@ function About() {
             </div>
         
     </div>
-    </body>
+    
         </>
     );
 }

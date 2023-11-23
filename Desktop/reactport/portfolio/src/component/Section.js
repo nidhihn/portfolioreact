@@ -3,7 +3,7 @@ import image from "../Svg/Newdev.gif";
 function Section() {
   return (
     <>
-      <body>
+      
       <main>
         <section className="firstsection">
           <div className="leftsection">
@@ -24,7 +24,7 @@ function Section() {
      
       
       <script src="https://kit.fontawesome.com/6f77f484da.js" crossorigin="anonymous"></script>
-      </body>
+    
     </>
   );
 }

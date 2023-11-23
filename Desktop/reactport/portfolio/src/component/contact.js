@@ -31,7 +31,7 @@ function Contact(){
         <>
          <div id="contact">
         <div class="container">
-            <div class="row">
+            <div class="rows">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact me</h1>
                     <p>  hnnidhi28@gmail.com</p>
@@ -54,6 +54,7 @@ function Contact(){
                         <Loader/>
                          }
                     </form>
+                    
                 </div>
             </div>
         </div>
